@@ -22,7 +22,7 @@
 
     .board {
       display: grid;
-      grid-template-columns: repeat(5, 50px);
+      grid-template-columns: repeat(6, 50px); /* Changed from 5 to 6 */
       grid-gap: 5px;
       margin-bottom: 20px;
     }
@@ -75,7 +75,7 @@
     const currentPlayerElement = document.getElementById('current-player');
     const restartButton = document.getElementById('restart-btn');
 
-    const BOARD_SIZE = 6;
+    const BOARD_SIZE = 6; // Updated size
     let board = [];
     let currentPlayer = 1;
 
